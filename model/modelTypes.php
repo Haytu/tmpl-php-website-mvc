@@ -47,22 +47,6 @@ class modelTypes{
     $req_prep->execute($values);
   }
 
-  public function read($idType){
-      $sql = "SELECT * FROM types WHERE idType = :idT";
-      $req_prep = model::$pdo->prepare($sql);
-      $values = array("idT" => $idT);
-      $req_prep->execute($values);
-      $req_prep->setFetchMode(PDO::FETCH_CLASS, 'modelTypes');
-      $tabTypes = $req_prep->fetchAll();
-
-      if(empty($tabTypes)){
-        return false;
-      }
-      else{
-        return $tabTypes[0];
-      }
-  }
-
   public function update(){
     $sql = 'UPDATE types SET nomType = :nomT';
     $req_prep = model::$pdo->prepare($sql);
