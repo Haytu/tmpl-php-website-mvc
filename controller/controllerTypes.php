@@ -6,7 +6,7 @@ class controllerTypes{
   /* Récupérer la liste des types */
   public static function readAll(){
     $pageTitle = "Tous les types";
-    $tab_t = modelTypes::getAllTypes();
+    $tab_t = modelTypes::readAll();
     require (File::build_path(array("view", "navbar.php")));
     require	(File::build_path(array("view", "types", "tousLesTypes.php")));
     require (File::build_path(array("view", "footer.php")));
