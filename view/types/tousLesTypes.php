@@ -1,5 +1,1 @@
-<?php
-  foreach ($tab_t as $t){
-    echo htmlspecialchars($t->getNomType());
-  }
-?>
+<section> <?php var_dump($tab_t) ?> </section>
