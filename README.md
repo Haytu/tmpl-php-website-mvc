@@ -26,11 +26,11 @@ Vous pouvez garder la structure du fichier modelTypes.php du répertoire model/.
 Créez autant de contrôleurs que de modèles.  
 Vous pouvez (aussi) garder la structure du fichier controllerTypes.php du répertoire controller/.
 
-## Vues
+### Vues
 Créez autant de vues que vous le souhaitez. Souvent, autant de vues que de méthodes pour chaque contrôleur.  
 A vous de faire l'intégration !
 
-## Ressources
+### Ressources
 Vous pouvez vous servir des fichiers style.css et script.js respectivement dans le répertoire resources/css/ et resources/script/ ; ils sont faits pour ça !  
 D'ailleurs, n'oubliez pas de les inclure dans le fichier view/navbar.php.  
 Vous pouvez aussi mettre toutes vos images, photos... dans le répertoire resources/img/.  
