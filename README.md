@@ -34,7 +34,7 @@ A vous de faire l'intégration !
 Vous pouvez vous servir des fichiers style.css et script.js respectivement dans le répertoire resources/css/ et resources/script/ ; ils sont faits pour ça !  
 D'ailleurs, n'oubliez pas de les inclure dans le fichier view/navbar.php.  
 Vous pouvez aussi mettre toutes vos images, photos... dans le répertoire resources/img/.  
-Et si cela vous chante, vous pouvez ajoutez une favicon à la racine de votre projet ; déjà inclue dans view/navbar.php.
+Et si cela vous chante, vous pouvez ajouter une favicon à la racine de votre projet ; déjà inclue dans view/navbar.php.
 
 ## Auteur
 
